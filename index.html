@@ -15,49 +15,55 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-                <a href="index.html"><img src="./images/logoConFondo.png" alt="logo de menu" class="nav_logo"></a>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="./pages/shop.html">Tienda</a></li>
-                    <li><a href="./pages/about.html">Sobre Nosotros</a></li>
-                    <li><a href="./pages/faqs.html">FAQs</a></li>
-                    <li><a href="./pages/contact.html">Contáctanos</a></li>
-                </ul>
-        </nav>
-    </header>
-    <section id="grid-container">
-        <div class="inicio">
-            <h1 class="inicioTitulo">EXPERIENCIA</h1>
-            <img src="./images/logoBlanco.png" alt="logo Gymbucks">
-            <p>Deliciosas bebidas protéicas para llevar </p>
-        </div>
-    </section>
-    <section>
-        <div class="bebidas">
-            <h2 class="bebidasTitulo">Elegí tu bebida potenciadora</h2>
-            <img src="./images/bebidasSlide.png" alt="Carrusel con bebidas">
-            <p><a href="./pages/Shop.html" class="btn">Ver Todas</a></p>
-        </div>
-    </section>
-    <footer>
-        <div class="footerMenu">
-            <img src="./images/logoConFondo.png" alt="logo Gymbucks">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./pages/shop.html">Tienda</a></li>
-                <li><a href="./pages/about.html">Sobre Nosotros</a></li>
-                <li><a href="./pages/faqs.html">FAQs</a></li>
-                <li><a href="./pages/contact.html">Contáctanos</a></li>
-            </ul>
-            <p>Redes Sociales</p>
-            <div class="logosRedes">
-                <a href="#"><img src="./images/iconosRedes/instagram.png" alt="instagram"></a>
-                <a href="#"><img src="./images/iconosRedes/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="./images/iconosRedes/gorjeo.png" alt="Twitter"></a>
+    <div class="gridArea"> 
+        <header class="site-header">
+            <div class="wrapper site-header__wrapper">
+                <a href="#" class="brand"><img src="./images/logoConFondo.png" alt="logo" /></a>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./pages/shop.html">Tienda</a></li>
+                        <li><a href="./pages/about.html">Sobre Nosotros</a></li>
+                        <li><a href="./pages/faqs.html">FAQs</a></li>
+                        <li><a href="./pages/contact.html">Contáctanos</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </footer>
+        </header>
+            <main class="flexInicio">
+                <div class="inicio">
+                    <h1 class="inicioTitulo">EXPERIENCIA</h1>
+                    <img src="./images/logoBlanco.png" alt="logo Gymbucks">
+                    <p>Deliciosas bebidas protéicas para llevar </p>
+                </div>
+            </main>
+            <section class="flexBebidas">
+                <div class="bebidas">
+                    <h2 class="bebidasTitulo">Elegí tu bebida potenciadora</h2>
+                    <img src="./images/bebidasSlide.png" alt="Carrusel con bebidas">
+                    <p><a href="./pages/Shop.html" class="btn">Ver Todas</a></p>
+                </div>
+            </section>
+            <footer class="footerFlex">
+                <div class="footerLeft">
+                    <img src="./images/logoConFondo.png" alt="logo Gymbucks">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./pages/shop.html">Tienda</a></li>
+                        <li><a href="./pages/about.html">Sobre Nosotros</a></li>
+                        <li><a href="./pages/faqs.html">FAQs</a></li>
+                        <li><a href="./pages/contact.html">Contáctanos</a></li>
+                    </ul>
+                </div>
+                <div class="footerRight">
+                    <p>Redes Sociales</p>
+                    <div class="footerRightRedes">
+                        <a href="#"><img src="./images/iconosRedes/instagram.png" alt="instagram"></a>
+                        <a href="#"><img src="./images/iconosRedes/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="./images/iconosRedes/gorjeo.png" alt="Twitter"></a>
+                    </div>
+                </div>
+            </footer>
+    </div>
 </body>
 </html>
