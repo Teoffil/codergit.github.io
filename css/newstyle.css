@@ -33,7 +33,14 @@ body{
     border: 2px solid black;
 }
 
-/* GRIDS */
+.tituloDePagina{
+    margin:40px;
+    margin-left: 50px;
+}
+
+
+
+/* GRIDS HOME*/
 .gridArea{
     display: grid;
     grid-template-areas: 
@@ -209,4 +216,50 @@ div.bebidas p{
 div.bebidas img{
     margin-top: 25px;
     margin-bottom: 30px;
+}
+
+/* ABOUT */
+
+
+div h1.tituloDePagina{
+    font-size: 40px;
+}
+
+div.about iframe{
+    margin: 20px 50px;
+}
+
+div.about p{
+    display: inline-block;
+    width: 1080px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+div.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* GRIDS ABOUT*/
+.gridAreaAbout{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "principal"
+    "footer";
+    height: 100vh;
+}
+
+header{
+    grid-area: header;
+}
+
+footer{
+    grid-area: footer;
+}
+
+section{
+    grid-area: principal;
 }
