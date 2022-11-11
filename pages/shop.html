@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="./css/newstyle.css">
 </head>
 <body>
-    <header>
-        <nav>
-                <a href="../index.html"><img src="../images/logoConFondo.png" alt="logo de menu" class="nav_logo"></a>
+    <header class="site-header">
+        <div class="wrapper site-header__wrapper">
+            <a href="#" class="brand"><img src="../images/logoConFondo.png" alt="logo" /></a>
+            <nav class="nav">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="./shop.html">Tienda</a></li>
@@ -19,7 +20,8 @@
                     <li><a href="./faqs.html">FAQs</a></li>
                     <li><a href="./contact.html">Contáctanos</a></li>
                 </ul>
-        </nav>
+            </nav>
+        </div>
     </header>
 	<section class="productSection">
         <div class="product-card espacio">
@@ -80,8 +82,8 @@
             <p><a href="#" class="btn">Ver mas productos</a></p>
         </div>
     </section>
-    <footer>
-        <div class="footerMenu">
+    <footer class="footerFlex">
+        <div class="footerLeft">
             <img src="../images/logoConFondo.png" alt="logo Gymbucks">
             <ul>
                 <li><a href="../index.html">Home</a></li>
@@ -90,13 +92,16 @@
                 <li><a href="./faqs.html">FAQs</a></li>
                 <li><a href="./contact.html">Contáctanos</a></li>
             </ul>
+        </div>
+        <div class="footerRight">
             <p>Redes Sociales</p>
-            <div class="logosRedes">
+            <div class="footerRightRedes">
                 <a href="#"><img src="../images/iconosRedes/instagram.png" alt="instagram"></a>
                 <a href="#"><img src="../images/iconosRedes/facebook.png" alt="Facebook"></a>
                 <a href="#"><img src="../images/iconosRedes/gorjeo.png" alt="Twitter"></a>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
