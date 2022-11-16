@@ -36,48 +36,64 @@
                             <a class="nav-link text-light link-dark" href="./faqs.html">FAQs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
                         </li>
                     </ul>
                 </div>
         </nav>
     </header>
-    <section class="contactoSection">
-        <div class="tituloDePagina"> 
-            <h1>Contáctanos</h1>
-        </div>
-        <div class="formularioContacto">
-            <form action="enviar.php" method="get" class="form">
-                <div class="formularioEmail">
-                    <label for="email">Email*</label>
-                    <input type="email" name="email" id="mail" placeholder=Email required>
+    <section>
+        <div class="container my-5">
+            <div class="row">
+                <h1>Contáctanos</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <form>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3">
+                        </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Consulta</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3">
+                            </div>
+                        </div>
+                        <fieldset class="row mb-3">
+                            <legend class="col-form-label col-sm-2 pt-0">¿Sos cliente premium?</legend>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                    Sí
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                    No
+                                    </label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="row mb-3">
+                            <div class="col-sm-10 offset-sm-2">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">¿En qué te podemos ayudar?</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
                 </div>
-                <div class="formularioConsulta">
-                    <label for="tipodeconsulta">Tipo de Consulta* </label>
-                    <select name="Consulta" id="Consulta" required>
-                        <option value="nada"> - </option>
-                        <option value="ProblemaCompra">Problema con la Compra</option>
-                        <option value="Masinfo">Más Información</option>
-                        <option value="Otro">Otro</option>
-                    </select>
+                <div class="col-md-6">
+                    <img src="../images/gymbucks.png" alt="logo" class="img-fluid">
                 </div>
-                <div class="formularioSosCliente">
-                    <label for="cliente">¿Sos cliente de GYMBUCKS?*</label>
-                    <input type="radio" name="cliente" id="si">Si
-                    <input type="radio" name="cliente" id="no">No
-                </div>
-                <div class="formularioEscribinos">
-                    <label for="contanos">Escribinos...</label>
-                    <textarea name="contanos" id="contanos" cols="30" rows="10" placeholder="Escribe aquí"></textarea>
-                </div>
-                <div class="formularioBtn">
-                    <input type="submit" value="Enviar Formulario">
-                    <input type="reset" value="Limpiar Formulario">
-                </div>
-            </form>
-        </div>
-        <div class="logoContacto">
-            <img src="../images/gymbucks.png" alt="logo Gymbucks">
+            </div>
         </div>
     </section>
     <footer>
